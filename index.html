@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+              .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 20vh;
+        } 
+      /* Estilo para tamaño sm, md y otros */
+      @media (max-width: 576px) {
+          .column-text {
+              column-count: 1;
+          }
+      }
+      @media (min-width: 576px) and (max-width: 768px) {
+          .column-text {
+              column-count: 2;
+          }
+      }
+      @media (min-width: 768px) {
+          .column-text {
+              column-count: 3;
+          }
+      }
+  </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Lorem Ipsum</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dolor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Amet</a>
+            </li>
+        </ul>
+        <!-- Opciones para el menú desplegable en tamaños md y sm -->
+      <ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navbar-dark" href="#" id="optionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Opciones
+        </a>
+          <div class="dropdown-menu" aria-labelledby="optionsDropdown">
+              <a class="dropdown-item" href="#">Opción 1</a>
+              <a class="dropdown-item" href="#">Opción 2</a>
+              <a class="dropdown-item" href="#">Opción 3</a>
+              <a class="dropdown-item" href="#">Opción 4</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline ml-auto">
+        <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+      </form>
+      </div>
+    </nav>
+    <div class="container center-content">
+      <h1 class="mt-4">Lorem Ipsum</h1>
+      <div id="textCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="carousel-item">
+                  <p>Proin in massa ligula. Integer nec risus id arcu varius congue.</p>
+              </div>
+              <div class="carousel-item">
+                  <p>Sed quis quam nec nunc bibendum vulputate in et quam.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+    <div class="container">
+        <div class="row">
+            <!-- Columna de opciones -->
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <div class="list-group" id="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Opción 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Opción 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Opción 3</a>
+                    <a href="#" class="list-group-item list-group-item-action">Opción 4</a>
+                </div>
+            </div>
+
+            <!-- Columnas de contenido central -->
+            <div class="col-lg-10 col-md-9 col-sm-8">
+              <div class="column-text">
+                  <p>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+
+                    Aunque no posee actualmente fuentes para justificar sus hipótesis, el profesor de filología clásica Richard McClintock asegura que su uso se remonta a los impresores de comienzos del siglo xvi.1​ Su uso en algunos editores de texto muy conocidos en la actualidad ha dado al texto lorem ipsum nueva popularidad.
+                    
+                    El texto en sí no tiene sentido aparente, aunque no es aleatorio, sino que deriva de un texto de Cicerón en lengua latina, a cuyas palabras se les han eliminado sílabas o letras. El significado del mismo no tiene importancia, ya que solo es una demostración o prueba. El texto procede de la obra De finibus bonorum et malorum (Sobre los límites del bien y del mal) que comienza con:
+                    
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+                    A nadie le gusta el dolor para sí mismo, o lo busca y desea tenerlo, apenas porque es dolor...
+                    De finibus de Marco Tulio Cicerón
+                    A pesar de estar extraído de ese escrito, el texto usado habitualmente[cita requerida] es:
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Existen múltiples variantes del texto original, algunas casi sin parecido con él. Estas versiones incluyen letras adicionales que no son comunes en latín (como la k, w y z) o palabras sin sentido como zzril, takimata y gubeergren que intentan hacer la distribución aún más parecida al inglés.
+                    
+                    Varios editores de texto proveen la funcionalidad de generación de lorem ipsum.</p>
+                  
+              </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
